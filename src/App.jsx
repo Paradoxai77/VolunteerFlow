@@ -122,7 +122,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/VolunteerFlow/">
       <div className="app-container">
         <Sidebar onLogout={() => setIsAuthenticated(false)} />
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
