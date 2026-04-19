@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/VolunteerFlow/',
   plugins: [react()],
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
   },
   server: {
     proxy: {
